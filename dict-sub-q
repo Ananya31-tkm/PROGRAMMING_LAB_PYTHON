@@ -1,0 +1,10 @@
+my_dict={'January':31,'February':28,'March':31,'April':30,'May':31,'June':30,'July':31,'August':31,'September':30,'October':30,'November':30,'December':31}
+m=input("Enter a month:")
+print("\nNumber of days in " ,m,"is",my_dict.get(m.strip()))
+print("\nMonths in alphabetical order : ",sorted(my_dict))
+
+for i in my_dict:
+    if my_dict[i]==30:
+        print("\nMonth having 30 days is: ",i,end=" ")
+print()
+

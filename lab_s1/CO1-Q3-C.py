@@ -5,6 +5,6 @@ w=str(input("Enter the word: "))
 
 x = [x for x in w if any([v in x for v in V])]
 x = list(x)
-print (x)
+print ("Vowels in given word:",x)
       
       

@@ -6,19 +6,19 @@ a=len(lst1)
 b=len(lst2)
 
 if a==b:
-    print("\nSAME LENGTH")
+    print("SAME LENGTH")
 else:
-    print("\nNOT SAME LENGTH")
+    print("NOT SAME LENGTH")
     
 s1=sum(lst1)
 s2=sum(lst2)
 if s1==s2:
-    print("\nSUM IS SAME")
+    print("SUM IS SAME")
 else:
-        print("\nSUM IS NOT SAME")
+        print("SUM IS NOT SAME")
 
 lst1=set(lst1)
 lst2=set(lst2)
 i = lst1.intersection(lst2)
 i=list(i)
-print("\nCommon values:",i)
+print("Common values:",i)
