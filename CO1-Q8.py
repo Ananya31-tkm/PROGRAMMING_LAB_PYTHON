@@ -1,4 +1,7 @@
 
-k=str(input("enter a string:"))
-rep=k.replace("A","$").replace("$","A",1)
-print(rep)
+str1=input('Enter string   ')
+print('input sring is  ',str1)
+char = str1[0]
+str1 = str1.replace(char, '$')
+str1 = char + str1[1:]
+print('New string is',str1)

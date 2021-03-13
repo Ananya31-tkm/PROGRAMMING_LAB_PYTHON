@@ -1,5 +1,5 @@
 V =['a','e','i','o','u','A','E','I','O','U']
-print("V=['a','e','i','o','u']")
+print("V=['a','e','i','o','u','A','E','I','O','U']")
 
 w=str(input("Enter the word: "))
 

@@ -1,6 +1,9 @@
 a=str(input("Enter word:"))
-a=list(a)
-x=[ord(x) for x in a ]
-x=list(x)
-print(x)
-
+print(a)
+s=a.split(' ')
+count = {}
+print
+for n in s:
+   count[n]=count.get(n,0)+1   
+print("The occurrences of each word in a given line is :")
+print(count) 

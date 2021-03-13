@@ -14,8 +14,14 @@ class Rectangle:
             return False
 obj1=Rectangle(2,3)
 obj2=Rectangle(1,2)
+print("Area of 1st Rect:",obj1.area())
+print("Area of 2nd Rect",obj2.area())
 if(obj1.area()<obj2.area()):
     print("obj1 is smaller in area")
 else:
     print("obj2 is smaller in area")
         
+
+
+
+
