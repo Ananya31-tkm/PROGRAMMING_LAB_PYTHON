@@ -1,7 +1,12 @@
-F=int(input("Enter range from:"))
-L=int(input("Enter range to:"))
-a=[]
-for x in range(F,L+1):
-    if x%2==0 and x**2:
-        a.append(x)
-print(a)
+import math
+for i in range(1000,8000):
+    n=int(math.sqrt(i))
+    if n*n==i:
+        s=i
+        while s!=0:
+            r=s%10
+            s=s//10
+            if (r%2!=0):
+                break
+        else:
+             print(i)
